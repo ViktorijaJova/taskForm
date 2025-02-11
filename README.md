@@ -9,13 +9,11 @@ Setup
 Clone the repository:
 
 bash
-Copy
-Edit
-git clone <repository-url>
+git clone (https://github.com/ViktorijaJova/taskForm)
 Navigate to the project directory:
 
 bash
-cd <project-directory>
+cd taskForm
 Install the dependencies:
 
 bash
@@ -46,3 +44,13 @@ Form Validation: Test the form by entering valid and invalid values for each fie
 Responsiveness: Resize the browser to verify that the form is responsive on different screen sizes.
  Accessibility
 The form includes proper ARIA attributes for accessibility. 
+
+Testing
+Fill out the form fields and test the validation:
+
+Names must contain only letters and spaces.
+
+Phone numbers must be between 7 and 15 digits.
+
+Use the "Back" button to navigate between steps and ensure the state is preserved.
+
